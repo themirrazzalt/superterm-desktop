@@ -1,0 +1,39 @@
+html,body,.app {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-input {
+    height: 16px;
+    width: 100%;
+    padding: 0px;
+    border: 3px solid black;
+    outline: none;
+}
+
+.viewing-area {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 0px;
+    margin: 0px;
+}
+
+.viewing-area[data-color="green-on-black"] {
+    color: rgb(12, 194, 12);
+    background: black;
+}
+
+.viewing-area[data-color="light-blue-on-grey"] {
+    color: rgb(35, 109, 219);
+    background: rgb(73, 73, 73);
+}

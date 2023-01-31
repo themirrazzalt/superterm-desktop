@@ -1,0 +1,21 @@
+{
+  "name": "superterm-desktop",
+  "version": "1.0.0",
+  "description": "Run SuperTerm on your desktop with the RTOP protocol!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./"
+  },
+  "keywords": [
+    "p3",
+    "mikesoftp3",
+    "superterm"
+  ],
+  "author": "themirrazz",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "electron": "^22.1.0",
+    "p3cnodesdk": "^1.0.1"
+  }
+}

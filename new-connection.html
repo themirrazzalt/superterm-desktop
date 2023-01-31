@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Connection</title>
+        <link rel="stylesheet" href="superterm://assets/main.css" />
+        <style>body{padding:8px;width:calc(100% - 16px);height:calc(100% - 16px);}</style>
+    </head>
+    <body>
+        <p>Enter an RTOP address and a name for the connection:</p>
+        <p>
+            Name:<br>
+            <input class="con-name" />
+        </p>
+        <p>
+            RToP Address:<br>
+            <input class="rtop-address" />
+        </p>
+        <p style="text-align: right">
+            <button onclick="ok()">OK</button>
+            <button onclick="window.close()">Cancel</button>
+        </p>
+        <script src="superterm://assets/connect.js"></script>
+    </body>
+</html>
